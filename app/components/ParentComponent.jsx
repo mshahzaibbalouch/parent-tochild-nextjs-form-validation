@@ -54,7 +54,7 @@ const ParentComponent = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-8 bg-white shadow-lg rounded-lg">
-      <h1 className="text-2xl font-bold mb-8 text-center">Case History Forms</h1>
+      <h1 className="text-2xl font-bold mb-8 text-center">Case History Forms by Shahzaib</h1>
       {formsConfig.map((formConfig, index) => (
         <div key={index} className="mb-8">
           <h2 className="text-xl font-semibold mb-4">{`Form ${index + 1}`}</h2>
