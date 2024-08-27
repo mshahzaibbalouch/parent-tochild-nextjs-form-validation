@@ -42,7 +42,7 @@ const ParentComponent = () => {
       await combinedValidationSchema.validate(formData, { abortEarly: false });
       setErrors({});
       console.log('All forms are valid:', formData);
-      setFormData('');
+      setFormData('')
       // Handle form submission here
     } catch (validationErrors) {
       const formattedErrors = {};
